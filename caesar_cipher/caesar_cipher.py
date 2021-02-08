@@ -11,17 +11,6 @@ for letter in lower_case:
 
 word_list = words.words()
 
-# check_word = ('cAt').lower()
-
-# if check_word in word_list:
-#     print('Yup')
-# else:
-#     print('Nope')
-
-
-# print(lower_case)
-# print(alphabet[25])
-
 def encrypt(plain, key):
     encrypted_text = ''
 
@@ -52,9 +41,6 @@ def crack(message):
 
     all_messages_decrypted = []
     testing = []
-    # need to verify if word is in word list, then stop the loop
-
-    # divide words found by length of new_message_list to get percentage
 
     decrypted_text = ''
     found = False

@@ -8,9 +8,9 @@ authors = ["ALAN KARLO MANGUBAT <karlomangubat92@gmail.com>"]
 python = "^3.9"
 nltk = "^3.5"
 Corpus = "^0.4.2"
+pytest = "^6.2.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 black = {version = "^20.8b1", allow-prereleases = true}
 
 [build-system]
